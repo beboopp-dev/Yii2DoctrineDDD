@@ -1,4 +1,4 @@
-# Yii2 + Doctrine + DDD
+# Yii2 + Doctrine + DDD + TDD
 
 This is work in process, please patience.
 I will put example files also.
@@ -11,7 +11,7 @@ First in Yii2 started using Modules (like Domains) with SubModules inside (if ne
 
 About Modules:
 I like very much, everything inside the same Domain, it still litle messy because of the active records, not easy to detach from model.
-If we try to detach, what i had encounter is to create Repositorys and Adapters, wich it seems the right way but not easy, a lot to refactoring, still a little lost, but starting.  
+If we try to detach, what i had encounter is to create Repositorys and Adapters, wich it seems the right way but not easy, a lot to refactoring, still a little lost, but starting. The tests are also inside each module what helps to simplify.
 
 I think that DDD (Domain Driven Design) shouldn't be static, it depends always of the project and dimensions of it.
 And also of the project complexity, i think most are crud, but my problem is when we want to get out of the box
